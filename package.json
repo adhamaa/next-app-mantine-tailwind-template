@@ -11,14 +11,20 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@mantine/core": "^7.13.4",
-    "@mantine/hooks": "^7.13.4",
+    "@mantine/core": "^7.16.1",
+    "@mantine/dates": "^7.16.1",
+    "@mantine/hooks": "^7.16.1",
+    "@tabler/icons-react": "^3.29.0",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
+    "mantine-react-table": "2.0.0-beta.8",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-preset-mantine": "^1.2.1"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
     "@types/node": "^22.7.9",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
