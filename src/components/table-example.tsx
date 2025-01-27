@@ -1,18 +1,20 @@
 "use client";
 
+import { Divider, Flex, Stack, Table, Title } from '@mantine/core';
+import {
+  flexRender,
+  type MRT_ColumnDef,
+  MRT_GlobalFilterTextInput,
+  MRT_TableBodyCellValue,
+  MRT_TablePagination,
+  MRT_ToolbarAlertBanner,
+  useMantineReactTable,
+} from 'mantine-react-table';
+
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css'; //if using mantine date picker features
 import 'mantine-react-table/styles.css'; //make sure MRT styles were imported in your app root (once)
-import {
-  flexRender,
-  MRT_GlobalFilterTextInput,
-  MRT_TablePagination,
-  MRT_ToolbarAlertBanner,
-  type MRT_ColumnDef,
-  useMantineReactTable,
-  MRT_TableBodyCellValue,
-} from 'mantine-react-table';
-import { Divider, Flex, Stack, Table, Title } from '@mantine/core';
+
 import { type Person, users } from '../fakerData';
 
 const columns: MRT_ColumnDef<Person>[] = [
